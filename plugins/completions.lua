@@ -2,7 +2,7 @@ local custom = {}
 
 custom["Exafunction/codeium.vim"] = {
 	lazy = true,
-	config = require("configs.completion.codeium"), -- Require that config
+	config = require("user.configs.completions.codeium"), -- Require that config
 	event = "BufRead",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
